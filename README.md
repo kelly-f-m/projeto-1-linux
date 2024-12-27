@@ -21,7 +21,7 @@ Primeira atividade prática da trilha de DevSecOps do programa de bolsas da Comp
 </br>
 
 ## Índice:
-1. Ativação do WSL
+1. [Ativação do WSL](#ativação-do-wsl)
 2. Instalação do Ubuntu 20.04
 3. Instalação do Nginx
 4. Criação e Configuração do Script
@@ -29,7 +29,7 @@ Primeira atividade prática da trilha de DevSecOps do programa de bolsas da Comp
 
 </br>
 
-### 1. Ativação do WSL
+## 1. Ativação do WSL
 **1.1** Na barra de pesquisar do Windows procure por "Painel de Controle"; </br>
 **1.2** Clique na categoria "Programas" e depois em "Ativar ou desativar recursos do Windows"; </br>
 **1.3** Marque as opções "Hyper-V" e "Subsistema do Windows para Linux"; </br>
@@ -37,7 +37,7 @@ Primeira atividade prática da trilha de DevSecOps do programa de bolsas da Comp
 
 </br>
 
-### 2. Instalação do Ubuntu 20.04
+## 2. Instalação do Ubuntu 20.04
 **2.1** Entre no aplicativo Microsoft Store e pesquise por "Ubuntu 20.04"; </br>
 **2.2** Selecione a versão mais atualizada e clique em adquirir; </br>
 **2.3** Após a instalação, abra o Ubuntu 20.04 e aguarde sua instalação interna; </br>
@@ -45,7 +45,7 @@ Primeira atividade prática da trilha de DevSecOps do programa de bolsas da Comp
 
 </br>
 
-### 3. Instalação e Configuração do Nginx
+## 3. Instalação e Configuração do Nginx
 **3.1** Antes de iniciar a instalação do Nginx, atualize os pacotes pelo comando:
 
 ``` bash
@@ -77,7 +77,7 @@ sudo systemctl start nginx
 
 </br>
 
-### 4. Criação e Configuração do Script
+## 4. Criação e Configuração do Script
 
 **4.1** Crie o script com o editor de texto Nano pelo comando "nano verificar_estado.sh"; </br>
 **4.2** Edite o conteúdo do script:
@@ -126,9 +126,32 @@ cat offline.log
 sudo crontab -e
 ```
 
-**5.2** 
-**5.3** Crie o script com o editor de texto Nano pelo comando "nano verificar_estado.sh"; </br>
-**5.4** Edite o conteúdo do script:
+**5.2** Caso ele peça para selecionar um editor de texto, selecione o Nano (mais amigável); </br>
+**5.3** Adicione uma nova linha contendo o seguinte conteúdo:
+
+![image](https://github.com/user-attachments/assets/67ceb498-13e4-4ec2-b9cb-4257a23be7ca)
+
+**Estrutura do Crontab:**
+
+``` bash
+* * * * * caminho/do/script/aqui
+| | | | |  
+| | | | +--- Dia da semana (0 - 7) (Domingo = 0 ou 7)
+| | | +----- Mês (1 - 12)
+| | +------- Dia do mês (1 - 31)
+| +--------- Hora (0 - 23)
++----------- Minuto (0 - 59)
+```
+
+**5.4** Dessa forma, o Crontab irá executar a verificação do serviço Nginx de 5 em 5 minutos:
+
+<li>On-line:</li>
+
+![image](https://github.com/user-attachments/assets/78f21416-c3ca-45c6-91d4-fc01d2dab512)
+
+<li>Off-line:</li>
+
+![image](https://github.com/user-attachments/assets/6d0d1581-8edd-4f98-a045-5371654f99ff)
 
 
 
