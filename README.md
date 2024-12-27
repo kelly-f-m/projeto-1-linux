@@ -21,11 +21,11 @@ Primeira atividade prática da trilha de DevSecOps do programa de bolsas da Comp
 </br>
 
 ## Índice:
-1. [Ativação do WSL](#ativação-do-wsl)
-2. Instalação do Ubuntu 20.04
-3. Instalação do Nginx
-4. Criação e Configuração do Script
-5. Automatização do Script
+1. [Ativação do WSL](#1-ativação-do-wsl)
+2. [Instalação do Ubuntu](#2-instalação-do-ubuntu)
+3. [Instalação do Nginx](#3-instalação-do-nginx)
+4. [Criação e Configuração do Script](#4-criação-e-configuração-do-script)
+5. [Automatização do Script](#5-automatização-do-script)
 
 </br>
 
@@ -37,7 +37,7 @@ Primeira atividade prática da trilha de DevSecOps do programa de bolsas da Comp
 
 </br>
 
-## 2. Instalação do Ubuntu 20.04
+## 2. Instalação do Ubuntu
 **2.1** Entre no aplicativo Microsoft Store e pesquise por "Ubuntu 20.04"; </br>
 **2.2** Selecione a versão mais atualizada e clique em adquirir; </br>
 **2.3** Após a instalação, abra o Ubuntu 20.04 e aguarde sua instalação interna; </br>
