@@ -10,6 +10,7 @@ Primeira atividade prática da trilha de DevSecOps do programa de bolsas da Comp
 <li> Ubuntu 20.04
 
 </br>
+</br>
 
 ## Objetivos:
 <li> Subir um servidor Nginx;
@@ -24,8 +25,8 @@ Primeira atividade prática da trilha de DevSecOps do programa de bolsas da Comp
 1. [Ativação do WSL](#1-ativação-do-wsl)
 2. [Instalação do Ubuntu](#2-instalação-do-ubuntu)
 3. [Instalação do Nginx](#3-instalação-do-nginx)
-4. [Criação e Configuração do Script](#4-criação-e-configuração-do-script)
-5. [Automatização do Script](#5-automatização-do-script)
+5. [Criação e Configuração do Script](#4-criação-e-configuração-do-script)
+6. [Automatização do Script](#5-automatização-do-script)
 
 </br>
 
@@ -45,7 +46,7 @@ Primeira atividade prática da trilha de DevSecOps do programa de bolsas da Comp
 
 </br>
 
-## 3. Instalação e Configuração do Nginx
+## 3. Instalação do Nginx
 **3.1** Antes de iniciar a instalação do Nginx, atualize os pacotes pelo comando:
 
 ``` bash
