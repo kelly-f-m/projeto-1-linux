@@ -24,3 +24,4 @@ if [ "$STATUS" = "active" ]; then
     echo "$DATA_HORA | Serviço: $SERVICO | Status: ONLINE | Mensagem: O serviço está on-line." >> $ARQUIVO_ONLINE
 else
     echo "$DATA_HORA | Serviço: $SERVICO | Status: OFFLINE | Mensagem: O serviço está off-line." >> $ARQUIVO_OFFLINE
+fi
