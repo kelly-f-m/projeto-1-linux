@@ -6,14 +6,13 @@ Primeira atividade prática da trilha de DevSecOps do programa de bolsas da Comp
 
 ## Requisitos:
 <li> Windows 11 </li>
-<li> WSL (Windows Subsystem for Linux)
-<li> Ubuntu 20.04
+<li> WSL (Windows Subsystem for Linux) </li>
+<li> Ubuntu 20.04 </li>
 
-</br>
 </br>
 
 ## Objetivos:
-<li> Subir um servidor Nginx;
+<li> Subir um servidor Nginx; </li>
 <li> Criar um script que valide se o serviço está on-line ou off-line e que envie o resultado da validação para um diretório; </li>
 <li> O script deve conter data e hora + nome do serviço + status + mensagem personalizada de on-line ou off-line; </li>
 <li> O script deve gerar 2 arquivos de saída: 1 para o serviço on-line e 1 para o serviço off-line; </li>
@@ -42,7 +41,7 @@ Primeira atividade prática da trilha de DevSecOps do programa de bolsas da Comp
 **2.1** Entre no aplicativo Microsoft Store e pesquise por "Ubuntu 20.04"; </br>
 **2.2** Selecione a versão mais atualizada e clique em adquirir; </br>
 **2.3** Após a instalação, abra o Ubuntu 20.04 e aguarde sua instalação interna; </br>
-**2.4** Defina seu nome e senha de usuário.</br>
+**2.4** Defina seu nome e senha de usuário. </br>
 
 </br>
 
