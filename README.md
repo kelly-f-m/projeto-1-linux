@@ -85,7 +85,7 @@ sudo systemctl start nginx
 ![Captura de tela 2024-12-27 011121](https://github.com/user-attachments/assets/136bc005-5e4e-41d5-8188-4c4e6e43a7fd)
 
 **4.3** Ao finalizar, salve o conteúdo com <mark>**CTRL + O**</mark> e aperte em <mark>**ENTER**</mark>; </br>
-**4.4** Saia do editor de texto com <mark>**CTRL + X**</mark>.</br>
+**4.4** Saia do editor de texto com <mark>**CTRL + X**</mark>. </br>
 **4.5** Dê permissão de execução para o seu script digitando:
 
 ``` bash
