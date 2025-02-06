@@ -1,6 +1,6 @@
-# Atividade Prática 1 | Linux | DevSecOps | Compass UOL
+# Atividade Prática 1 | Linux | Compass UOL
 
-Primeira atividade prática da trilha de DevSecOps do programa de bolsas da Compass UOL
+Primeira atividade prática da trilha de **DevSecOps** do programa de bolsas da Compass UOL
 
 </br>
 
