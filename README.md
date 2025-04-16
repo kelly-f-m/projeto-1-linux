@@ -1,20 +1,22 @@
 # Atividade Prática 1 | Linux | Compass UOL
 
+[![My Skills](https://skillicons.dev/icons?i=linux,ubuntu,windows)](https://skillicons.dev)
+
 </br>
 
 ## Requisitos:
-<li> Windows 11 </li>
-<li> WSL (Windows Subsystem for Linux) </li>
-<li> Ubuntu 20.04 </li>
+- Windows 11
+- WSL (Windows Subsystem for Linux)
+- Ubuntu 20.04
 
 </br>
 
 ## Objetivos:
-<li> Subir um servidor Nginx; </li>
-<li> Criar um script que valide se o serviço está on-line ou off-line e que envie o resultado da validação para um diretório; </li>
-<li> O script deve conter data e hora + nome do serviço + status + mensagem personalizada de on-line ou off-line; </li>
-<li> O script deve gerar 2 arquivos de saída: 1 para o serviço on-line e 1 para o serviço off-line; </li>
-<li> Preparar a execução automatizada do script para a cada 5 minutos. </li>
+- Subir um servidor Nginx;
+- Criar um script que valide se o serviço está on-line ou off-line e envie o resultado da validação para um diretório;
+- O script deve conter data e hora + nome do serviço + status + mensagem personalizada de on-line ou off-line;
+- O script deve gerar 2 arquivos de saída: 1 para o serviço on-line e 1 para o serviço off-line;
+- Preparar a execução automatizada do script para a cada 5 minutos.
 
 </br>
 
@@ -143,11 +145,11 @@ sudo crontab -e
 
 **5.4** Dessa forma, o Crontab irá executar a verificação do serviço Nginx de 5 em 5 minutos:
 
-<li>On-line:</li>
+- On-line:
 
 ![image](https://github.com/user-attachments/assets/78f21416-c3ca-45c6-91d4-fc01d2dab512)
 
-<li>Off-line:</li>
+- Off-line:
 
 ![image](https://github.com/user-attachments/assets/6d0d1581-8edd-4f98-a045-5371654f99ff)
 
