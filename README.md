@@ -1,6 +1,10 @@
-# Atividade Prática 1 | Linux | Compass UOL
+<h1 align="center">Atividade Prática 1 / Linux / Compass UOL</h1>
 
-[![My Skills](https://skillicons.dev/icons?i=linux,ubuntu,windows)](https://skillicons.dev)
+<p align="center">
+  <a href="https://skillicons.dev">
+    <img src="https://skillicons.dev/icons?i=linux,ubuntu,windows" />
+  </a>
+</p>
 
 </br>
 
