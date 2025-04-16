@@ -1,4 +1,5 @@
-<h1 align="center">Atividade Prática 1 / Linux / Compass UOL</h1>
+<h1 align="center">Atividade Prática 1 | Compass UOL </br>
+Script de validação para um servidor Nginx no Linux</h1>
 
 <p align="center">
   <a href="https://skillicons.dev">
